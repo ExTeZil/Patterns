@@ -1,2 +1,5 @@
-package com.pattern.iterator;public interface ClothingItem {
+package com.pattern.iterator;
+
+public interface ClothingItem {
+    String getDescription();
 }

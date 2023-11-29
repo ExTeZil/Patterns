@@ -1,6 +1,6 @@
 package com.pattern.facade;
 
-public class OnlineClothingStoreClient {
+public class OnlineClothingStoreClientMain {
     public static void main(String[] args) {
         OnlineClothingStoreFacade facade = new OnlineClothingStoreFacade();
 

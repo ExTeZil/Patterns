@@ -1,2 +1,8 @@
-package com.pattern.facade;public class InventorySystem {
+package com.pattern.facade;
+
+class InventorySystem {
+    public void checkStock(String item) {
+        System.out.println("Checking stock for " + item);
+        // Implementation details...
+    }
 }

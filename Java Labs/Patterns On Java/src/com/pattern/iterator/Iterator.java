@@ -1,2 +1,6 @@
-package com.pattern.iterator;public class Iterator {
+package com.pattern.iterator;
+
+public interface Iterator {
+    boolean hasNext();
+    ClothingItem next();
 }

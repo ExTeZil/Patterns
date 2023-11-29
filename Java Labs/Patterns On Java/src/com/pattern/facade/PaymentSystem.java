@@ -1,2 +1,8 @@
-package com.pattern.facade;public class PaymentSystem {
+package com.pattern.facade;
+
+class PaymentSystem {
+    public void processPayment(double amount) {
+        System.out.println("Processing payment of $" + amount);
+        // Implementation details...
+    }
 }

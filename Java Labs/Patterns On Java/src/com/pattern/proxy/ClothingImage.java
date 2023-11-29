@@ -1,2 +1,5 @@
-package com.pattern.proxy;public interface ClothingImage {
+package com.pattern.proxy;
+
+public interface ClothingImage {
+    void display();
 }

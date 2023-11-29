@@ -1,2 +1,5 @@
-package com.pattern.command;public interface Command {
+package com.pattern.command;
+
+public interface Command {
+    void execute();
 }
