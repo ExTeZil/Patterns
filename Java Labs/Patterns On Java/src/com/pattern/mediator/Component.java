@@ -1,2 +1,6 @@
-package com.pattern.mediator;public class Component {
+package com.pattern.mediator;
+
+public interface Component {
+    void setMediator(Mediator mediator);
+    void notify(String event);
 }
